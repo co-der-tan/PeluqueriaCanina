@@ -54,7 +54,7 @@ MascotaJpaController masJpa = new MascotaJpaController();
     try {
         masJpa.edit(mascota);
     } catch (Exception ex) {
-        Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+        JOptionPane.showMessageDialog(null, "no se pudo modificar la mascota");
     }
     }
 
